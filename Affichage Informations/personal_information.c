@@ -17,7 +17,7 @@ char gender;
       printf("enter you age :");
       scanf("%d", &age);
       
-      printf("enter your gender m(male) or f(female) : ");
+      printf("enter your genders m(male) or f(female) : ");
       scanf("%s", &gender);
       
       printf("your personal enformations are : \n ");
