@@ -20,7 +20,7 @@ char gender;
       printf("enter your genders m(male) or f(female) : ");
       scanf("%s", &gender);
       
-      printf("your personal informations are : \n ");
+      printf("your personal information are : \n ");
       printf("your full name is : %s %s \n", name, surname);
       printf("you are %d years old \n", age);
       if (gender == 'm') {
