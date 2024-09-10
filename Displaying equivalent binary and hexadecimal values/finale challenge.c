@@ -8,6 +8,12 @@ int main() {
 
     printf("Binary: ");
 
+    if (num == 0) {
+        printf("0\n");
+        printf("Hexadecimal: 0\n");
+        return 0;
+    }
+
     while (num > 0) {
         printf("%d", num % 2);
         num /= 2;
