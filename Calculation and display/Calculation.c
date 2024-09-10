@@ -4,6 +4,8 @@ int main() {
     float a, b;
 
     printf("Enter the first number (a): ");
+    
+    
     scanf("%f", &a);
     printf("Enter the second number (b): ");
     scanf("%f", &b);
